@@ -5,10 +5,7 @@
 // Copiar
 // Editar
 
-let A = 23;
-
-let B = 23;
-
-let Soma = A + B;
-
-console.log(Soma);
+function Somar(a, b) {
+  return a + b;
+}
+console.log(Somar(2, 3));
