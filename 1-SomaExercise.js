@@ -5,7 +5,7 @@
 // Copiar
 // Editar
 
-function Somar(a, b) {
-  return a + b;
-}
-console.log(Somar(2, 3));
+let a = 10;
+let b = 10;
+
+console.log(a + b);

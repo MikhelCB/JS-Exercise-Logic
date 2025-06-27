@@ -1,20 +1,21 @@
 // 6. Encontrar o maior número entre dois
 // Compare dois números e mostre qual é o maior (ou se são iguais).
+// let n1 = 5;
+// let n2 = 10;
 
-// let NumeroMenor = 19;
-// let NumeroMaior = 2;
-
-// if (NumeroMaior > NumeroMenor) {
-//   console.log("Esse Numero é maior");
+// if (n1 === n2) {
+//   console.log("Os números são iguais");
 // } else {
-//   console.log("Esse número é menor");
-// } Esse código foi a solução que eu tinha achado
+//   console.log("Os numeros não são iguais");
+// }
 
-let x = 20;
-let y = 15;
+let x = 50;
+let y = 50;
 
 if (x > y) {
-  console.log("X é maior");
+  console.log(`O número de X(${x}) é maior`);
 } else if (y > x) {
-  console.log("Y é Maior");
-} else "São Iguais";
+  console.log(`O número de Y(${y}) é maior`);
+} else {
+  console.log("Os números são iguais");
+}

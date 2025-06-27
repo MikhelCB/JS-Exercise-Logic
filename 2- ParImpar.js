@@ -1,8 +1,9 @@
 // Crie uma lógica para retornar se o numero inserido na variavel é impar ou par
-let Numero = 1;
 
-if (Numero % 2 === 0) {
-  console.log("Par");
+let number = 20;
+
+if (number % 2 === 0) {
+  console.log(`${number} + "Esse número é Par"`);
 } else {
-  console.log("Impar");
+  console.log(`${number} + "Esse número é Impar"`);
 }
