@@ -18,6 +18,4 @@ function Ehprimo(n){
 }
 
 
-
-
 console.log(Ehprimo(4));  // true
